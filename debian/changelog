@@ -1,3 +1,11 @@
+libvpx (1.8.2-1ubuntu0.4) focal-security; urgency=medium
+
+  * SECURITY UPDATE: use-after-free vulnerability
+    - debian/patches/CVE-2025-5283.patch: fix double free on init failure.
+    - CVE-2025-5283
+
+ -- Fabian Toepfer <fabian.toepfer@canonical.com>  Mon, 02 Jun 2025 17:00:06 +0200
+
 libvpx (1.8.2-1ubuntu0.3) focal-security; urgency=medium
 
   * SECURITY UPDATE: multiple integer overflows
